@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './components/header.tsx'
 import Home from './App.tsx'
 import About from './pages/about.tsx'
+import Footer from './components/footer.tsx'
 
 import './index.css'
 
@@ -13,12 +14,13 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <div className="app-layout">
         {/* Header is always visible */}
         <Header /> 
-        
+          
         {/* Routes go here */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
         </Routes>
+        <Footer/>
       </div>
     </BrowserRouter>
   </React.StrictMode>,

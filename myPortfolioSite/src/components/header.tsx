@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Header: React.FC = () => {
   return (
     <header>
-      <a href = "./App.tsx"><h1>My Portfolio</h1></a>
+      <a href = "/"><h1>My Portfolio</h1></a>
       <nav>
         <ul>
           <li><Link to="/">Home</Link></li>
