@@ -1,11 +1,11 @@
 import './App.css'
-import Header from './components/header.tsx'
+import Intro from './components/intro.tsx'
 
 function App() {
   
   return (
     <>
-    <Header></Header>
+      <Intro></Intro>
     </>
   )
 }

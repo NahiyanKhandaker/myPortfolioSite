@@ -128,3 +128,9 @@ nav ul li a {
 nav ul li a:hover {
   background-color: #111111;
 }
+
+.intro{
+  padding: 50px;
+  margin: 50px;
+  background-color: #534b4b;
+}
