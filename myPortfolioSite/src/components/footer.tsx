@@ -9,7 +9,7 @@ import {
 const Footer = () => {
   return (
     <footer>
-      <p>Author: Nahiyan Alim Khandaker</p>
+
 
       <div className="social-icons">
         <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noreferrer" aria-label="LinkedIn">
@@ -29,6 +29,9 @@ const Footer = () => {
         </a>
       </div>
 
+      <br></br>
+
+      <p>Author: Nahiyan Alim Khandaker</p>
       <p>&copy; 2024 My Portfolio. All rights reserved.</p>
     </footer>
   );
