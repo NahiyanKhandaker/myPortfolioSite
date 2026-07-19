@@ -12,7 +12,7 @@ const Footer = () => {
 
 
       <div className="social-icons">
-        <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+        <a href="https://www.linkedin.com/in/nahiyan-khandaker-0b12633a1/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
           <FaLinkedin />
         </a>
         <a href="https://www.instagram.com/your-profile" target="_blank" rel="noreferrer" aria-label="Instagram">
