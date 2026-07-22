@@ -32,7 +32,7 @@ const Footer = () => {
       <br></br>
 
       <p>Author: Nahiyan Alim Khandaker</p>
-      <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+      <p>&copy; 2026 My Portfolio. All rights reserved.</p>
     </footer>
   );
 };

@@ -123,10 +123,14 @@ nav ul li a {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
+
+  transition: transform 0.3s ease; 
 }
 
 nav ul li a:hover {
   background-color: #111111;
+
+  transform: scale(1.1)
 }
 
 .intro{
@@ -143,6 +147,12 @@ nav ul li a:hover {
   font-size: large;
   font-weight: bold;
   border-radius: 10px;
+
+  transition: transform 0.3s ease; 
+}
+
+.primaryButton:hover{
+  transform: scale(1.1);
 }
 
 .social-icons {
@@ -162,3 +172,5 @@ nav ul li a:hover {
   color: #00aaff;
   transform: translateY(-3px);
 }
+
+
