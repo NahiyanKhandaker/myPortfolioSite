@@ -1,4 +1,4 @@
-import { projects } from "../data/projects";
+import { projects } from "../data/projects.ts";
 
 const Project: React.FC = () => {
 
@@ -18,7 +18,7 @@ const Project: React.FC = () => {
               src={project.image}
               alt={project.name}
             />
-            
+
             <h3 className="projectCard__name">{project.name}</h3>
 
             <p className="projectCard__description">{project.description}</p>
